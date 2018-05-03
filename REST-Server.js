@@ -1,6 +1,8 @@
-//Express 
+//Express
 var express = require('express');
-var app = express();
+var request = require('request');
+var cheerio = require('cheerio');
+var app     = express();
 
 //Route
 app.get('/', function (req, res) {
